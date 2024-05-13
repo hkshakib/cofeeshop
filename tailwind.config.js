@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      default: ["Ubuntu Sans", "sans-serif"],
+    },
   },
   plugins: [],
 }
