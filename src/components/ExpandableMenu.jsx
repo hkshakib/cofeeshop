@@ -14,11 +14,11 @@ const ExpandableMenu = () => {
   };
 
   return (
-    <div className="m-2 space-y-2">
+    <div className="m-4 space-y-4">
       {MenuData.map((category, index) => (
         <div
           key={index}
-          className="flex flex-col gap-2 rounded-lg bg-[#FFE7E7] p-5"
+          className="flex flex-col gap-2 rounded-lg bg-[#FFE7E7] p-3"
           tabIndex={index + 1}
         >
           <div
@@ -42,8 +42,8 @@ const ExpandableMenu = () => {
             {category.items.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className={`flex gap-24 text-[24px] items-center ${
-                  itemIndex % 2 === 0 ? "border-b-2 border-[#944E63]" : "border-b-2 border-[#944E63]"
+                className={`flex gap-24 text-[24px] items-center rounded-[5px] p-2 ${
+                  itemIndex % 2 === 0 ? "bg-white " : "bg-[#FFE7E7]"
                 }`}
               >
                 <span className="flex-1">{item.name}</span>
