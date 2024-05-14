@@ -25,7 +25,7 @@ const ExpandableMenu = () => {
             className="flex cursor-pointer items-center justify-between"
             onClick={() => toggleExpand(index + 1)}
           >
-            <span className="text-[24px] lg:text-[36px] ">{category.name}</span>
+            <span className="text-[24px] lg:text-[36px]">{category.name}</span>
             <MdOutlineExpandMore
               className={`h-10 w-10 transition-all duration-500 ${
                 expanded === index + 1 ? "rotate-180" : ""

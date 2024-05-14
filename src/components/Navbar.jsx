@@ -8,7 +8,7 @@ const Navbar = () => {
         </a>
       </ul>
       <ul className="flex">
-        <li className="capitalise text-[16px] lg:text-[20px]">Where every brew tells a story, and every moment is steeped in warmth.</li>
+        <li className="capitalise text-[14px] lg:text-[20px]">Where every brew tells a story.</li>
       </ul>
     </nav>
   )
